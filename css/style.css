@@ -1,4 +1,11 @@
-/*.h {
-  background-color: #00d1b2;
+.males {
+  background-color: skyblue;
 }
-*/
+
+.females {
+  background-color: salmon;
+}
+
+.center {
+  text-align: center;
+}
