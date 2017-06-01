@@ -9,3 +9,12 @@
 .center {
   text-align: center;
 }
+
+.visible-carousel-item {
+  display: block;
+}
+
+
+.hidden-carousel-item {
+  display: none;
+}
