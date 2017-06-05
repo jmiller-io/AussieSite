@@ -1,6 +1,6 @@
 Practicing Frontend Development
 
-* Technologies Used
+# Technologies Used
 HTML
 CSS
 Bulma CSS Framework
