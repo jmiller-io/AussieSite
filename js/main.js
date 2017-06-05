@@ -19,25 +19,27 @@ $('.nav-toggle').click((evt) => {
 })
 
 
-$('#carousel li').click((event) => {
-  currentItem = event.currentTarget;
-  nextItem = currentItem.nextElementSibling
-  if (currentItem.classList[0] === 'visible-carousel-item') {
-    currentItem.classList.remove('visible-carousel-item')
-    currentItem.classList.add('hidden-carousel-item')
-  } else {
-    currentItem.classList.add('visible-carousel-item')
-    currentItem.classList.remove('hidden-carousel-item')
-  }
+// $('#carousel li').click((event) => {
+//   currentItem = event.currentTarget;
+//   nextItem = currentItem.nextElementSibling
+//   // if (currentItem.classList[0] === 'visible-carousel-item') {
+//   //   currentItem.classList.remove('visible-carousel-item')
+//   //   currentItem.classList.add('hidden-carousel-item')
+//   // } else {
+//   //   currentItem.classList.add('visible-carousel-item')
+//   //   currentItem.classList.remove('hidden-carousel-item')
+//   // }
 
-    if (nextItem.classList[0] === 'visible-carousel-item') {
-    nextItem.classList.remove('visible-carousel-item')
-    nextItem.classList.add('hidden-carousel-item')
-  } else {
-    nextItem.classList.add('visible-carousel-item')
-    nextItem.classList.remove('hidden-carousel-item')
-  }
+//   //   if (nextItem.classList[0] === 'visible-carousel-item') {
+//   //   nextItem.classList.remove('visible-carousel-item')
+//   //   nextItem.classList.add('hidden-carousel-item')
+//   // } else {
+//   //   nextItem.classList.add('visible-carousel-item')
+//   //   nextItem.classList.remove('hidden-carousel-item')
+//   // }
+
+//   console.log($(event.currentTarget))
 
 
 
-});
+// });
