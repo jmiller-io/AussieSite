@@ -18,3 +18,7 @@
 .hidden-carousel-item {
   display: none;
 }
+
+.card p {
+  background-color: #66e3d1;
+}
